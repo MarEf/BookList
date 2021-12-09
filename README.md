@@ -34,3 +34,6 @@ The first book selection is for some reason ignored by the frontend. As a workar
 ### Inconsistent Connection
 Not all database interactions go through. Sometimes they do, sometimes they dont, and there is no way to predict if a change made to a book will save, if adding a new book will succeed, or if you can delete an entry. The frontend sends the request to the backend consistently, but the backend will sometimes return a "Promise<pending>" and not even call the operation function from BookController.java.   
 This could be a problem with the code, or it could be the developer's computer playing tricks on her. This is yet to be determined.
+  
+### Not A Beauty
+In the frontend, the SubmissionForm is implemented as a child component to Book. I did not want to do this, but the alternative implementation had an unexpected bug that would have taken too much time to resolve at my current skill level. This design decision is ugly, but at least it works.
