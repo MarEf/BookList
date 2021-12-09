@@ -37,3 +37,6 @@ This could be a problem with the code, or it could be the developer's computer p
   
 ### Not A Beauty
 In the frontend, the SubmissionForm is implemented as a child component to Book. I did not want to do this, but the alternative implementation had an unexpected bug that would have taken too much time to resolve at my current skill level. This design decision is ugly, but at least it works.
+  
+## One more thing
+As github has kindly decided that the frontend is a submodule, it will not be possible to navigate to it and view the contents online. However, I have included a copy of the source files in the folder /frontend src.
