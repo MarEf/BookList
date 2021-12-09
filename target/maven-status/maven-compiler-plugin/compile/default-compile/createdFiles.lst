@@ -1,0 +1,4 @@
+booklist/repository/BookRepository.class
+booklist/BookCollection.class
+booklist/model/Book.class
+booklist/controller/BookController.class
