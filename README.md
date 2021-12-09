@@ -21,7 +21,7 @@ This has no effect on the frontend. As long as the backend is running, the edits
 Get the .jar file from the /taret folder and execute it with "java -jar FILENAME"
 
 ### The Other Way
-Save the project to your computer. Then navigate via command line to the target folder and execute the following commands:
+Save the project to your computer (git clone). Then navigate via command line to the target folder and execute the following commands:
 
 mvn clean install (This will install the node dependancy that was too large to include via github)  
 mvn (the actual command to run the project)  
