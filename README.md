@@ -10,6 +10,7 @@ JPA (for makeshift database)
 REST API  
 REACT JS  
 axios (for HTTP requests)  
+NetBeans 12.5 (As the IDE. If you see some NetBeans files/folders, this is why)
 
 ## To Run:
 To launch the application you have the eay way and the developer-way. After launching the application, use your browser to go to http://localhost:8080/  
