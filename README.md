@@ -23,8 +23,8 @@ Get the .jar file from the /taret folder and execute it with "java -jar FILENAME
 ### The Other Way
 Save the project to your computer. Then navigate via command line to the target folder and execute the following:
 
-mvn clean install (This will install the node dependancy that was too large to include via github)
-mvn (the actual command to run the project)
+mvn clean install (This will install the node dependancy that was too large to include via github)  
+mvn (the actual command to run the project)  
 
 ## Known Issues
 While every component of the application has been observed working by me, there are a few kinks in the system that would neet to be addressed for a more serious application than a demo.
